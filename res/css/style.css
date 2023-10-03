@@ -208,3 +208,71 @@ input{
     height: 30px;
 }
 
+/*
+Add post page CSS code
+START
+*/
+.post_box{
+    font-size: 20px;
+    transform:translate(-50%, -50%);
+    padding: 10px;
+    background-color: #d2d1d1;
+    margin-top: 25ch;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.row {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.col1PostBox { 
+    float: left;
+    width: 30%
+}
+
+.col1PostBox > label {
+    display: inline-block;
+    text-align: right;
+    
+}
+
+.col2PostBox{
+    float: left;
+    width: 60%
+}
+
+.PostBody {
+    height: 100px;
+    width: 100%;
+    resize:none;
+}
+
+.createPostButton {
+    color: white;
+    background-color: rgb(30, 81, 139);
+    border-width: 0px;
+    height: 30px;
+    width: 50%;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.chooseFileButton{
+    color: white;
+    background-color: rgb(136, 136, 136);
+    border-width: 1px;
+    height: 30px;
+    width: 90%;
+    font-size: large;
+    float: left;  
+    margin-top: 28px;
+}
+
+/*
+Add post page CSS code
+STOP
+*/

@@ -3,9 +3,31 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="res/css/style.css" />
-    <title>Home</title>
+    <title>AddPost</title>
 </head>
 <body>
+<header class="header">
+    <ul class = 'nav'>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+    <a class ="logo" href="login.html"><img src="res/images/usericon.jpg" width="50" height="50" alt = "My profile picture"></a>
+</header>
 
+<section class="post_box">
+    <div class="row">
+        <div class="col1PostBox" >
+            <label>Post<br> body</label> <br>
+            <br>
+            <br>
+            <label>Select<br> file</label> 
+        </div>
+        <div class="col2PostBox">
+            <textarea placeholder="textarea" class="PostBody"></textarea>
+            <button class = "chooseFileButton">Choose file</button>
+        </div>
+    </div>
+    <br>
+    <button class = "createPostButton">Create post</button>
+</section>
 </body>
 </html>
