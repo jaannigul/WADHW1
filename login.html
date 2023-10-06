@@ -3,29 +3,39 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="res/css/style.css" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <title>Login</title>
 </head>
 <body>
     <header class="header">
         <ul class = 'nav'>
             <li><a href="index.html">Home</a></li>
-            <li><a href="addPost.html">Add post</a></li>
         </ul>
     
         <a class ="logo" href="index.html"><img src="res/images/usericon.jpg" width="50" height="50" alt = "My profile picture"></a>
     </header>
-    <div  class = "login_box">
-        	<strong>Welcome to PostIt </strong><br> <br> 
-            <div class="create">Create an account </div>
-            <div class = "login"> or <br>
-                Please log in</div>
-            <form action="index.html" method="get">
-                <input type="text" id="eMail" name="Email" placeholder="Email" required><br>
-                <input type="text" id="password" name="Password" placeholder="Password" required><br>
-                <button class = "button">Login</button>
-            </form>
-        
-            <div class="create">Forget password</div>
+    <div>
+
+    </div class= "container">
+        <div class = "column edge"> 
+
+        </div>
+            <div  class = "login_box" id = "login_box">
+                    <p>Welcome to PostIt </p>
+                    <div class="create">Create an account </div>
+                    <div class = "login"> or <br>
+                        Please log in</div>
+                    <form action="index.html" method="get">
+                        <input type="text" id="eMail" name="Email" placeholder="Email" required><br>
+                        <input type="password" id="password" name="Password" placeholder="Password" required><br>
+                        <button class = "button" id = "button">Login</button>
+                    </form>
+                
+                    <div class="create">Forget password</div>
+            </div>
+        <div class = "column edge"> 
+
+        </div>
     </div>
 </body>
 </html>
