@@ -276,3 +276,47 @@ START
 Add post page CSS code
 STOP
 */
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.login_box{
+    font-size: 25px;
+    border: 2px solid;
+    transform:translate(-50%, -50%);
+    padding: 60px;
+    background-color: #8d8d8d;
+    margin-top: 25ch;
+   
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#button{
+    color: white;
+    background-color: rgb(79, 79, 255);
+    border-width: 0px;
+    height: 30px;
+    width: 100%;
+}
+input{
+    height: 30px;
+}
+div p {
+    font-weight: bold;
+}
+div > .create{
+    color: rgb(82, 82, 255);
+}
+div p {
+    font-weight: bold;
+}
+div > .create{
+    color: rgb(82, 82, 255);
+}
+
+
+
+
