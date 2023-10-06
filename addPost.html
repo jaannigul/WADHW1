@@ -14,21 +14,33 @@
     <a class ="logo" href="login.html"><img src="res/images/usericon.jpg" width="50" height="50" alt = "My profile picture"></a>
 </header>
 
-<section class="post_box">
-    <div class="row">
-        <div class="col1PostBox" >
-            <label>Post<br> body</label> <br>
-            <br>
-            <br>
-            <label>Select<br> file</label> 
+
+
+    <div class = "container">
+        <div class="column edge">
+
         </div>
-        <div class="col2PostBox">
-            <textarea placeholder="textarea" class="PostBody"></textarea>
-            <button class = "chooseFileButton">Choose file</button>
-        </div>
+        <div class="column center">
+            <div class="post_box">
+            <div class="row">
+                <div class="col1PostBox" >
+                    <label>Post<br> body</label> <br>
+                    <br>
+                    <br>
+                    <label>Select<br> file</label> 
+                </div>
+                <div class="col2PostBox">
+                    <textarea placeholder="textarea" class="PostBody"></textarea>
+                    <button class = "chooseFileButton">Choose file</button>
+                </div>
+            </div>
+            <br>
+            <button type="button" onclick="window.location.href='index.html'" class="createPostButton">Create post</button>
+            </div> 
+        </div>   
+        <div class="column edge">
+            
+        </div>   
     </div>
-    <br>
-    <button type="button" onclick="window.location.href='index.html'" class="createPostButton">Create post</button>
-</section>
 </body>
 </html>

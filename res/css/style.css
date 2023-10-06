@@ -214,12 +214,8 @@ START
 */
 .post_box{
     font-size: 20px;
-    transform:translate(-50%, -50%);
-    padding: 10px;
+    
     background-color: #d2d1d1;
-    margin-top: 25ch;
-    left: 50%;
-    position: absolute;
     text-align: center;
     border-radius: 25px;
 }
