@@ -301,10 +301,10 @@ input{
     height: 30px;
 }
 
-div p {
+.login_box p {
     font-weight: bold;
 }
-div > .create{
+.login_box > .create{
     color: rgb(82, 82, 255);
 }
 
