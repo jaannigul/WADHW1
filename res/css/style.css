@@ -153,9 +153,12 @@ end of navbar
     margin: 0;
 }
 
-.post p{
+
+.post.heading ~ .post.content p {
     margin: 0;
 }
+
+
 
 
 /*end of content*/
@@ -235,12 +238,13 @@ START
 .createPostButton {
     color: white;
     background-color: rgb(30, 81, 139);
-    border-width: 0px;
+    border-width: 0;
     height: 30px;
     width: 50%;
     font-size: large;
     margin-bottom: 20px;
 }
+
 
 
 /*
@@ -252,10 +256,7 @@ STOP
 Login page CSS code
 START
 */
-* {
-    font-family: sans-serif;
-    box-sizing: border-box;
-}
+
 .login_box{
     font-size: 25px;
     border: 2px solid;
@@ -273,14 +274,14 @@ START
 #button{
     color: white;
     background-color: rgb(79, 79, 255);
-    border-width: 0px;
+    border-width: 0;
     height: 30px;
     width: 100%;
 }
 input{
     height: 30px;
 }
-div p {
+.login_box p {
     font-weight: bold;
 }
 div > .create{
