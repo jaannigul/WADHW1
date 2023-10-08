@@ -181,33 +181,6 @@ footer{
     }
 }
 
-.login_box{
-    font-size: 25px;
-    border: 2px solid;
-    transform:translate(-50%, -50%);
-    padding: 60px;
-    background-color: #8d8d8d;
-    margin-top: 25ch;
-   
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    border-radius: 25px;
-}
-.create{
-    color: rgb(82, 82, 255);
-}
-.button{
-    color: white;
-    background-color: rgb(79, 79, 255);
-    border-width: 0px;
-    height: 30px;
-    width: 100%;
-}
-input{
-    height: 30px;
-}
-
 /*
 Add post page CSS code
 START
@@ -272,6 +245,11 @@ START
 Add post page CSS code
 STOP
 */
+
+/*
+Lging page CSS code
+START
+*/
 * {
     font-family: sans-serif;
     box-sizing: border-box;
@@ -281,7 +259,7 @@ STOP
     border: 2px solid;
     transform:translate(-50%, -50%);
     padding: 60px;
-    background-color: #8d8d8d;
+    background-color: #cccccc;
     margin-top: 25ch;
    
     left: 50%;
@@ -307,7 +285,10 @@ input{
 .login_box > .create{
     color: rgb(82, 82, 255);
 }
-
+/*
+Login page CSS code
+START
+*/
 
 
 
