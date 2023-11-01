@@ -2,6 +2,7 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
 body{
     line-height: 1.6;
     margin: 0;
@@ -291,6 +292,17 @@ div > .create{
 Login page CSS code
 STOP
 */
+
+/*
+dropdown menu
+*/
+.dropdown{
+
+    background-color: #c58524;
+    border-radius: 25px;
+    display:block;
+}
+
 
 
 
