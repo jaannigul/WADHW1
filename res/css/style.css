@@ -1,18 +1,21 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
+    
 }
 
 body{
     line-height: 1.6;
     margin: 0;
+    background-color: #B2C8BA;
 }
 
 .header{
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #938f8f;
-    background-color: rgb(128, 128, 128);
+
+    background-image: linear-gradient(0,#86A789,#405041);/* #86A789*/
     box-shadow: 0 0 7px 0 rgba(0,0,0,0.75);
     border-radius: 15px;
     position: sticky;
@@ -45,9 +48,10 @@ ul{
     list-style: none;
 }
 
-.logo{
+.logoButton{
     font-size: 1.1em;
-    margin: 0 5px 0 0;
+    margin: 0 30px 0 0;
+    border-radius: 50%;
 }
 
 @media(min-width: 768px){
@@ -61,7 +65,7 @@ ul{
 }
 
 @media(max-width: 767px){
-    .logo{
+    .logoButton{
         display: none;
     }
     .nav {
@@ -103,7 +107,7 @@ end of navbar
 }
 
 .postcontainer{
-    background-color: #cccccc;
+    background-color: #86A789;
     border-radius: 10px;
     margin-bottom: 20px;
     display: flex;
@@ -166,7 +170,7 @@ end of navbar
 
 footer{
     border-radius: 10px;
-    background-color: #f0f0f0;
+    background-color: #D2E3C8;
     align-items: center;
     text-align: center;
     padding: 30px;
@@ -196,6 +200,7 @@ START
     background-color: #d2d1d1;
     text-align: center;
     border-radius: 25px;
+    background-color: #86A789;
 }
 
 .row {
@@ -263,13 +268,14 @@ START
     border: 2px solid;
     transform:translate(-50%, -50%);
     padding: 60px;
-    background-color: #cccccc;
+    background-color: #86A789;
     margin-top: 25ch;
    
     left: 50%;
     position: absolute;
     text-align: center;
     border-radius: 25px;
+    
 }
 
 #button{
@@ -297,11 +303,29 @@ STOP
 dropdown menu
 */
 .dropdown{
-
-    background-color: #c58524;
+    top: 90px;
+    margin-left: 140px;
+    right: 20px;
+    background-color: #86A789;
     border-radius: 25px;
-    display:block;
+    border-style: double;
+    border-width: 1px;
+    display: none;
+    padding-left: 2.5%;
+    width: 15%;
+    position: fixed;
+
 }
+.gif{
+
+    height: 1000px;
+    width: 1000px;
+   
+    margin-right: 600px;
+    
+}
+
+
 
 
 

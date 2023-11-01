@@ -1,8 +1,4 @@
-console.log("ssssss")
-console.log('kdjsjdjhafdjhdsgjgdaghdfj')
-
-
-
+console.log("hshshshhshshs")
 document.getElementById("logoButton").addEventListener("click", function() {
     
     var dropdownContent = document.getElementById("dropdown");
