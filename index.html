@@ -14,7 +14,7 @@
         <li><a href="addPost.html">Add post</a></li>
     </ul>
 
-    <a class ="logo" href="login.html"><img src="res/images/usericon.jpg" width="50" height="50" alt = "My profile picture"></a>
+    <button class = "logoButton" id = "logoButton"><img src="res/images/user.png" width="50" height="50" alt = "My profile picture" ></button>
 </header>
 
 <section>
@@ -93,7 +93,14 @@
             </div>
         </div>
         <div class = "column edge">
-
+            <div class = "dropdown" id ="dropdown">
+                <ul>
+                    <li><p>Mina</p></li>
+                    <li><p>Mina.sina@gmail.com</p></li>
+                    <li> <a href="login.html"> logout </a></li>
+                </ul>
+                
+            </div>
         </div>
     </div>
 </section>
@@ -101,5 +108,6 @@
 <footer>
     <p><Strong>PostIt</Strong></p>
 </footer>
+<script type = "text/javascript" src="src/js/script.js"></script>
 </body>
 </html>
