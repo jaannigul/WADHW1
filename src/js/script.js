@@ -1,3 +1,4 @@
+//json validator used: https://jsonlint.com/
 
 document.getElementById("logoButton").addEventListener("click", function() {
     
@@ -8,3 +9,4 @@ document.getElementById("logoButton").addEventListener("click", function() {
       dropdownContent.style.display = "block";
     }
   });
+

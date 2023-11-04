@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "First post",
+    "create_time": "2023-10-01",
+    "user_picture": null,
+    "image_url": null,
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 2,
+    "title": "Second post",
+    "create_time": "2023-10-04",
+    "user_picture": "https://clasebcn.com/wp-content/uploads/2020/04/harold-thumb.jpg",
+    "image_url": null,
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 3,
+    "title": "Third post",
+    "create_time": "2023-11-02",
+    "user_picture": null,
+    "image_url": null,
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 4,
+    "title": "Fourth post",
+    "create_time": "2023-11-03",
+    "user_picture": "https://example.com/images/user4.jpg",
+    "image_url": "https://example.com/images/post4.jpg",
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 5,
+    "title": "Fifth post",
+    "create_time": "2023-11-05",
+    "user_picture": null,
+    "image_url": "https://example.com/images/post5.jpg",
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 6,
+    "title": "Sixth post",
+    "create_time": "2023-11-07",
+    "user_picture": "https://example.com/images/user6.jpg",
+    "image_url": null,
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 7,
+    "title": "Seventh post",
+    "create_time": "2023-11-10",
+    "user_picture": null,
+    "image_url": "https://example.com/images/post7.jpg",
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 8,
+    "title": "Eighth post",
+    "create_time": "2023-11-12",
+    "user_picture": "https://example.com/images/user8.jpg",
+    "image_url": null,
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 9,
+    "title": "Ninth post",
+    "create_time": "2023-11-15",
+    "user_picture": null,
+    "image_url": "https://example.com/images/post9.jpg",
+    "content": "lorem ipsum"
+  },
+  {
+    "id": 10,
+    "title": "Tenth post",
+    "create_time": "2023-11-17",
+    "user_picture": "https://example.com/images/user10.jpg",
+    "image_url": null,
+    "content": "lorem ipsum"
+  }
+]
