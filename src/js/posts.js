@@ -46,12 +46,14 @@ function buildPost(json){
     postContainer.appendChild(postFooter);
     return postContainer
 }
+
 window.onload = function() {
-    fetch("https://api.myjson.online/v1/records/4107c36e-fcea-483b-8344-0b33c49cd4e7")
+    //fetch("https://api.myjson.online/v1/records/4107c36e-fcea-483b-8344-0b33c49cd4e7")
+    fetch("res/json/posts.json")
         .then(response => response.json())
         .then(json => {
             console.log(json)
-            for (let post of json.data) {
+            for (let post of json) {//json.data for online json
                 console.log(post)
                const postElement = buildPost(post)
                 const centerColumn = document.querySelector('.column.center')
