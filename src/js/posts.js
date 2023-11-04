@@ -2,11 +2,21 @@ function buildPost(json){
     const postContainer = document.createElement('div');
     postContainer.className = 'postcontainer';
     const postHeading = document.createElement('div');
+
     postHeading.className = 'post heading';
+
     const pfpImage = document.createElement('img');
     pfpImage.className = 'pfp';
-    pfpImage.src = json.user_picture || 'res/images/user.png'; // Fallback to default if null
+    pfpImage.src = json.user_picture;
+    pfpImage.onerror = function() {
+        // If the image fails to load, set the source to the default image
+        pfpImage.src = "res/images/user.png";
+      };
     pfpImage.alt = 'pfp';
+    
+    const usernamePostCreator = document.createElement('h4');
+    usernamePostCreator.className = 'username';
+    usernamePostCreator.textContent = json.username;
 
     const dateParagraph = document.createElement('p');
     dateParagraph.className = 'date';
@@ -15,6 +25,7 @@ function buildPost(json){
     dateParagraph.textContent = createDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 
     postHeading.appendChild(pfpImage);
+    postHeading.appendChild(usernamePostCreator);
     postHeading.appendChild(dateParagraph);
 
     const postContent = document.createElement('div');
@@ -52,10 +63,11 @@ window.onload = function() {
     fetch("res/json/posts.json")
         .then(response => response.json())
         .then(json => {
-            console.log(json)
-            for (let post of json) {//json.data for online json
+            const reversedJson = json.reverse();
+            console.log(reversedJson)
+            for (let post of reversedJson) {//json.data for online json
                 console.log(post)
-               const postElement = buildPost(post)
+                const postElement = buildPost(post)
                 const centerColumn = document.querySelector('.column.center')
                 centerColumn.appendChild(postElement)
             }
