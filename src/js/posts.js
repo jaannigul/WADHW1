@@ -59,7 +59,7 @@ function buildPost(json){
 }
 
 window.onload = function() {
-    //fetch("https://api.myjson.online/v1/records/4107c36e-fcea-483b-8344-0b33c49cd4e7")
+    //fetch("https://mocki.io/v1/a0ea0d0d-b7dc-4cde-b078-5a156d2e4f38")
     fetch("res/json/posts.json")
         .then(response => response.json())
         .then(json => {
